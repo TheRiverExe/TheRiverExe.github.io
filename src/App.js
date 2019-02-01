@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Container } from "semantic-ui-react";
+
+import ChapterOne from "./chapters/ChapterOne";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        The River Exe
-      </div>
+        <Container text fluid>
+          <ChapterOne />
+        </Container>
+      </div >
     );
   }
 }
