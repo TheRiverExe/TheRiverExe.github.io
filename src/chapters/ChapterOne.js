@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
-import { Header, Image, List, Segment } from "semantic-ui-react";
+import { Button, Container, Header, Image, List, Segment } from "semantic-ui-react";
+import { NavLink } from 'react-router-dom';
 
-import img1 from "../media/DSCF1013.JPG";
-import img2 from "../media/DSCF6388.JPG";
-import img3 from "../media/DSCF4222.JPG";
-import img4 from "../media/DSCF3318.JPG";
-import img5 from "../media/DSCF3317.JPG";
-import img6 from "../media/DSCF0847.JPG";
-import img7 from "../media/DSCF3134.JPG";
+import img1 from "../media/one/one.JPG";
+import img2 from "../media/one/two.JPG";
+import img3 from "../media/one/three.JPG";
+import img4 from "../media/one/four.JPG";
+import img5 from "../media/one/five.JPG";
+import img6 from "../media/one/six.JPG";
+import img7 from "../media/one/seven.JPG";
 
 class ChapterOne extends Component {
     render() {
         return (
-            <div className="App">
+            <div>
+                <br />
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Waddlesdown, near Exeter. June 2016.</Header>
                 </Segment>
                 <Header as="h1">Chapter One.</Header>
                 <p>Introduction.</p>
-                <p>"When you are old and grey and full of sleep, and nodding by the fire, take down this book, and slowly read, and dream of the soft look. Your eyes had one, and of their shadows deep". "When you are old". William Yeats.</p>
+                <p className="quote">"When you are old and grey and full of sleep, and nodding by the fire, take down this book, and slowly read, and dream of the soft look. Your eyes had one, and of their shadows deep". "When you are old".</p>
+                <p className="quote-credit">William Yeats.</p>
                 <p>So far as I know, Bimbling doesn't appear to mean anything other than to walk or travel at a leisurely pace. It is for someone like me, the preferred choice when out and about. It brings to the fore all the senses and concentrates the mind in the moment, rather than focusing too much on the destination. It's less hurried pace suits those, who by nature and inclination, are apt to wander and be open to the random possibilities that so often present themselves. The chance discovery of something engaging swiftly becomes incorporated into a revised plan. Talking to friends about bimbling, has revealed, that I am apparently not the only person in the world to have stumbled on this approach to venturing outdoors. They too, recount how some of their favourite memories arose quite by chance and opportunity. Eagerly account is given of having taken a random turn into a passageway, which in turn led to some unexpected gem or incidental curiosities. They happily describe their delight in finding themselves off the beaten track, which added some sense of drama or offered an interesting encounter. It doesn't always work out like that, of course, and spontaneity can lead to dead ends, muddy lanes or through places that seem less inspiring or challenging. However, even the most rigid adherence to plans can face similar difficulties. Perhaps, my more relaxed attitude stems from my current favourable circumstances. Having reached the milestone of semi-retirement and happily survived thus far, there was and is, the welcome prospect ahead of more free time ahead to Bimble. It helps that I have an abiding interest in exploring places and learning about the history of the landscape.</p>
                 <p>Delving into all manner of bookshops has led to the discovery that earlier travellers along the banks of the Exe (and for that matter other Devon rivers) similarly adopted a bimbling style to their venture. Several of these have stood out and will get a mention in this book, but I will start with Rambles in Somerset (1912), which sets out as good a description of bimbling as I have come across. It also relates to Exmoor, which is where the river and this odyssey began. “An Exmoor ramble should be an impromptu sort of entertainment, not a cut-and- dried affair planned on the direction of a guide-book. The spirit of the moor is the spirit of an almost irresponsible freedom which carries you at the whim of the moment anywhere across the heather “(1). I feel sure The Exmoor Rescue Service might raise a slight eyebrow at this statement today, but bimbling doesn't preclude common sense and care. Perhaps, at its best, the bimblers simply embraces the opportunities, great and small, to notice, learn and value what is around them.</p>
                 <p>This brings me onto my second, but more contemporary book, The Great Explosion, by Brian Dillon (2). He wrote, that his growing awareness and appreciation of his surroundings and finding interest in them, proved a turning point in his recovery from Depression. It marked an emergence from a hitherto "sullen indifference" to his adopted county of Kent. He found that even in the dullest of estates and drab landscapes, there was a gift in his burgeoning appreciation, for the past shadows and imprints of their history and stories. He became interested in the small details and objects of everyday life revealing something of the Human experience. This awakening of consciously noticing and learning from the rich offerings of everyday life in his own neighbourhood, combined with a spirit of wandering appears to have served him well. In the course of my bimbles along the Devonshire landscape, has been the discovery of so many places that have attached to me some special worth or evocation. One such haven is a place I call, somewhat unimaginatively, <b>Reservoir Hill</b>, because it holds just that, buried beneath its thin skin of grasses and wild flowers. Sunk deep into the soil and bedrock below and closed with steel lids, the reservoir serves as a marvellous platform upon which to survey the landscape. Looking at the map, the hill doesn't appear to have a name that I can find, but it is there as much in my knowledge of the area, as in my mind’s eye. As I write this, I can conjure up the images of the wooded rise and falls of the Crediton Hamlets in the distance. I can recall the criss-cross of ancient hedgerows across the valleys with farmsteads nestling on their slopes. In the far distance, the high undulating moors with a glimpse of their rocky outcrops on the horizon.</p>
@@ -36,7 +39,8 @@ class ChapterOne extends Component {
                     <Header as="h4" textAlign="center" color="grey">The Exeter Canal near to Topsham. January 2017.</Header>
                 </Segment>
                 <Header as="h1">The River Exe.</Header>
-                <p>"The change in public sentiment is, of course, largely due to increased facilities of locomotion. The motorcar and even the humble cycle have revolutionised the habit of the travelling public. They have been emancipated from the tyranny of the time table and from the unaccommodating rigidity of the railway metals, with open roads before them, people can now go when and where they please". Rambles in Somerset (1912)</p>
+                <p className="quote">"The change in public sentiment is, of course, largely due to increased facilities of locomotion. The motorcar and even the humble cycle have revolutionised the habit of the travelling public. They have been emancipated from the tyranny of the time table and from the unaccommodating rigidity of the railway metals, with open roads before them, people can now go when and where they please".</p>
+                <p className="quote-credit">Rambles in Somerset (1912)</p>
                 <p>From its rise on the high ground of Exmoor in Somerset, to its meeting with the sea in Devon, the Exe straddles two counties. The river also claims possession over the countless springs, streams and rivers that meet with its sixty-mile course towards the open sea of Lyme Bay. Indeed, the very moorland it arises from is named after the river that has long risen from Exe Head. The name given to the river may originate from the Celtic word of Isca, meaning a river abounding in salmon. This seems to have been adopted by the occupying Romans, who referred to the fledgling settlement of what is today known as Exeter, as Isca Dumnoniorum. Out if this, the Exe has found its name in common parlance and adopted over many hundreds of years for the variety of place names of settlements that have grown up in and around the course of the river. Looking at a map of the river, many place names bear witness to a direct feature associated with the river. Exford, Exebridge and Exmouth seem self-explanatory. The seaside town of Exmouth lies at the mouth of the Exe Estuary and is a place where much of my life has been entwined. In childhood, the river was something I barely noticed, as it was the sea and the estuary that loomed much larger in my outdoor play area. If I try and extract any memory of the river as a child, it is confined to a vague memory of Mr Douglas, our Latin Teacher, taking our small group of us, Choristers, for a walk to the recreational park near Salmon Pool Bridge in Exeter, but that is about the extent of it.</p>
                 <Image src={img4} fluid rounded />
                 <Segment vertical>
@@ -69,9 +73,12 @@ class ChapterOne extends Component {
                     <List.Item as="h5">(4) West Country Rivers. The Exe. A River for wildlife. Rod Lawrence (1991)</List.Item>
                     <List.Item as="h5">(5) Waterlog. A Swimmers journey through Britain. Roger Deakin (2000).</List.Item>
                 </List>
-                <br/>
+                <br />
+                <Container textAlign='center'>
+                    <Button basic circular icon='chevron right' as={NavLink} to='/two' />
+                </Container>
+                <br />
             </div>
-
         );
     }
 }
