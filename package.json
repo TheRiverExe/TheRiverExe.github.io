@@ -1,5 +1,5 @@
 {
-  "name": "gh-pages",
+  "name": "the-meeting-of-the-water",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://TheRiverExe.github.io/",
@@ -7,7 +7,7 @@
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
-    "react-flip-move": "^3.0.1",
+    "react-router": "^4.3.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "semantic-ui-css": "^2.3.1",

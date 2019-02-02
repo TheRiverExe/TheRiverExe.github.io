@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import { Button, Container, Divider, Header, Image, List, Segment } from "semantic-ui-react";
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import { Divider, Header, Image, List, Segment } from "semantic-ui-react";
 
 import img1 from "../media/two/one.JPG";
 import img2 from "../media/two/two.JPG";
@@ -13,11 +12,10 @@ import img8 from "../media/two/eight.JPG";
 import img9 from "../media/two/nine.JPG";
 import img10 from "../media/two/ten.JPG";
 
-class ChapterTwo extends Component {
+class ChapterTwo extends React.Component {
     render() {
         return (
-            <div>
-                <br />
+            <div class="scrollable">
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Exe Plain. June 2015.</Header>
@@ -120,12 +118,6 @@ class ChapterTwo extends Component {
                     <List.Item as="h5">(15) Exmoor Wanderings. Eric R. Delderfield (1956).</List.Item>
                     <List.Item as="h5">(16) Henry Williamson Society website.</List.Item>
                 </List>
-                <br />
-                <Container textAlign='center'>
-                    <Button basic circular icon='chevron left' as={NavLink} to='/one' />
-                    <Button basic circular icon='chevron right' as={NavLink} to='/three' />
-                </Container>
-                <br />
             </div>
         );
     }

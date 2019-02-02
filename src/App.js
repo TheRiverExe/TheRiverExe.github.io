@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 import { Container } from "semantic-ui-react";
-import { Route, HashRouter, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
+import Cover from "./Cover";
 import ChapterOne from "./chapters/ChapterOne";
 import ChapterTwo from './chapters/ChapterTwo';
+import Header from './Header';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <HashRouter>
+      <div>
+        <Router>
           <Container text fluid>
-            <Redirect to='/one' />
-            <Route exact path="/one" component={ChapterOne} />
-            <Route exact path="/two" component={ChapterTwo} />
+            <Route path="/" component={Header} />
+            <Route exact path="/" component={Cover} />
+            <Route path="/1" component={ChapterOne} />
+            <Route path="/2" component={ChapterTwo} />
           </Container>
-        </HashRouter>
+        </Router>
       </div >
     );
   }

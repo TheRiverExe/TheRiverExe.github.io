@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import { Button, Container, Header, Image, List, Segment } from "semantic-ui-react";
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import { Header, Image, List, Segment } from "semantic-ui-react";
 
 import img1 from "../media/one/one.JPG";
 import img2 from "../media/one/two.JPG";
@@ -10,11 +9,10 @@ import img5 from "../media/one/five.JPG";
 import img6 from "../media/one/six.JPG";
 import img7 from "../media/one/seven.JPG";
 
-class ChapterOne extends Component {
+class ChapterOne extends React.Component {
     render() {
         return (
-            <div>
-                <br />
+            <div className="scrollable">
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Waddlesdown, near Exeter. June 2016.</Header>
@@ -64,8 +62,7 @@ class ChapterOne extends Component {
                 <Image src={img7} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Rodney Bay, Exmouth. October 2016.</Header>
-                </Segment>
-                <br />
+                </Segment>                
                 <List>
                     <List.Item as="h5">(1) Rambles in Somerset. G.W. Wade & J.H. Wade. (1912)</List.Item>
                     <List.Item as="h5">(2) The Great Explosion. Gunpowder, the Great War and a disaster on the Kent Marshes. Brian Dillon (2015).</List.Item>
@@ -73,11 +70,6 @@ class ChapterOne extends Component {
                     <List.Item as="h5">(4) West Country Rivers. The Exe. A River for wildlife. Rod Lawrence (1991)</List.Item>
                     <List.Item as="h5">(5) Waterlog. A Swimmers journey through Britain. Roger Deakin (2000).</List.Item>
                 </List>
-                <br />
-                <Container textAlign='center'>
-                    <Button basic circular icon='chevron right' as={NavLink} to='/two' />
-                </Container>
-                <br />
             </div>
         );
     }
