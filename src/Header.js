@@ -11,12 +11,12 @@ class Header extends React.Component {
 
         return (
             <div className="header">
+                <Divider />
                 <Container textAlign="center">
                     <Button basic color="grey" circular icon="chevron left" as={Link} to={prevPath} disabled={this.props.location.pathname === "/"} />
                     <Button basic color="grey" circular icon="tree" as={Link} to="/" disabled={this.props.location.pathname === "/"} />
                     <Button basic color="grey" circular icon="chevron right" as={Link} to={nextPath} disabled={this.props.location.pathname === "/2"} />
                 </Container>
-                <Divider />
             </div>
         );
     }

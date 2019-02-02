@@ -12,11 +12,11 @@ class App extends React.Component {
     return (
       <div>
         <Router>
-          <Container text fluid>
-            <Route path="/" component={Header} />
+          <Container text fluid className="main">            
             <Route exact path="/" component={Cover} />
             <Route path="/1" component={ChapterOne} />
             <Route path="/2" component={ChapterTwo} />
+            <Route path="/" component={Header} />
           </Container>
         </Router>
       </div >

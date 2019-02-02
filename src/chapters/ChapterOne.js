@@ -12,7 +12,7 @@ import img7 from "../media/one/seven.JPG";
 class ChapterOne extends React.Component {
     render() {
         return (
-            <div className="scrollable">
+            <div className="scrollable justified">
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Waddlesdown, near Exeter. June 2016.</Header>

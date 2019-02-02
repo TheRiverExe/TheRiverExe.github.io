@@ -27,15 +27,19 @@ h1 {
   font-size:13px;
 }
 
-.header {
-  padding-top:10px;
-}
-
 .scrollable {
   height: 100%;
   overflow: scroll;
-  max-height:90vh;
+  min-height:90.5vh;
+  max-height:90.5vh;  
+}
+
+.justified {
   text-align:justify;
+}
+
+.main {
+  padding-top:10px;
 }
 
 ::-webkit-scrollbar { 
