@@ -9,6 +9,10 @@ html body {
   margin-bottom:2px;
 }
 
+h1 {
+  text-align:center;
+}
+
 .centered {
   text-align:center;
 }
@@ -31,6 +35,7 @@ html body {
   height: 100%;
   overflow: scroll;
   max-height:90vh;
+  text-align:justify;
 }
 
 ::-webkit-scrollbar { 
