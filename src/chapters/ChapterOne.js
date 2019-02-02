@@ -11,6 +11,7 @@ import img7 from "../media/one/seven.JPG";
 
 class ChapterOne extends React.Component {
     render() {
+        
         return (
             <div className="scrollable justified">
                 <Image src={img1} fluid rounded />
@@ -62,7 +63,7 @@ class ChapterOne extends React.Component {
                 <Image src={img7} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Rodney Bay, Exmouth. October 2016.</Header>
-                </Segment>                
+                </Segment>
                 <List>
                     <List.Item as="h5">(1) Rambles in Somerset. G.W. Wade & J.H. Wade. (1912)</List.Item>
                     <List.Item as="h5">(2) The Great Explosion. Gunpowder, the Great War and a disaster on the Kent Marshes. Brian Dillon (2015).</List.Item>
