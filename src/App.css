@@ -32,6 +32,14 @@ h1 {
   font-size:13px;
 }
 
+.column {
+  margin-bottom:0px!important;
+}
+
+.mini-header {
+  margin-top:1vh!important;
+}
+
 .scrollable {
   height: 100%;
   overflow: scroll;

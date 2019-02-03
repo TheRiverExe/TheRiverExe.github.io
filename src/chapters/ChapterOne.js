@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Image, List, Segment } from "semantic-ui-react";
+import { Divider, Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
 import img1 from "../media/one/one.JPG";
 import img2 from "../media/one/two.JPG";
@@ -8,9 +8,15 @@ import img4 from "../media/one/four.JPG";
 import img5 from "../media/one/five.JPG";
 import img6 from "../media/one/six.JPG";
 import img7 from "../media/one/seven.JPG";
+import side1 from "../media/one/side1.JPG";
+import side2 from "../media/one/side2.JPG";
+import side3 from "../media/one/side3.JPG";
+import side4 from "../media/one/side4.JPG";
+import side5 from "../media/one/side5.JPG";
+import side6 from "../media/one/side6.JPG";
 
 class ChapterOne extends React.Component {
-    render() {        
+    render() {
         return (
             <div className="scrollable justified">
                 <Image src={img1} fluid rounded />
@@ -23,7 +29,45 @@ class ChapterOne extends React.Component {
                 <p className="quote-credit">William Yeats.</p>
                 <p>So far as I know, Bimbling doesn't appear to mean anything other than to walk or travel at a leisurely pace. It is for someone like me, the preferred choice when out and about. It brings to the fore all the senses and concentrates the mind in the moment, rather than focusing too much on the destination. It's less hurried pace suits those, who by nature and inclination, are apt to wander and be open to the random possibilities that so often present themselves. The chance discovery of something engaging swiftly becomes incorporated into a revised plan. Talking to friends about bimbling, has revealed, that I am apparently not the only person in the world to have stumbled on this approach to venturing outdoors. They too, recount how some of their favourite memories arose quite by chance and opportunity. Eagerly account is given of having taken a random turn into a passageway, which in turn led to some unexpected gem or incidental curiosities. They happily describe their delight in finding themselves off the beaten track, which added some sense of drama or offered an interesting encounter. It doesn't always work out like that, of course, and spontaneity can lead to dead ends, muddy lanes or through places that seem less inspiring or challenging. However, even the most rigid adherence to plans can face similar difficulties. Perhaps, my more relaxed attitude stems from my current favourable circumstances. Having reached the milestone of semi-retirement and happily survived thus far, there was and is, the welcome prospect ahead of more free time ahead to Bimble. It helps that I have an abiding interest in exploring places and learning about the history of the landscape.</p>
                 <p>Delving into all manner of bookshops has led to the discovery that earlier travellers along the banks of the Exe (and for that matter other Devon rivers) similarly adopted a bimbling style to their venture. Several of these have stood out and will get a mention in this book, but I will start with Rambles in Somerset (1912), which sets out as good a description of bimbling as I have come across. It also relates to Exmoor, which is where the river and this odyssey began. “An Exmoor ramble should be an impromptu sort of entertainment, not a cut-and- dried affair planned on the direction of a guide-book. The spirit of the moor is the spirit of an almost irresponsible freedom which carries you at the whim of the moment anywhere across the heather “(1). I feel sure The Exmoor Rescue Service might raise a slight eyebrow at this statement today, but bimbling doesn't preclude common sense and care. Perhaps, at its best, the bimblers simply embraces the opportunities, great and small, to notice, learn and value what is around them.</p>
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side1} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Exe Estuary from Waddlesdown</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side2} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Reservoir Hill view towards Crediton Hamlets</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side5} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">View towards Posbury Clump</Header>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
                 <p>This brings me onto my second, but more contemporary book, The Great Explosion, by Brian Dillon (2). He wrote, that his growing awareness and appreciation of his surroundings and finding interest in them, proved a turning point in his recovery from Depression. It marked an emergence from a hitherto "sullen indifference" to his adopted county of Kent. He found that even in the dullest of estates and drab landscapes, there was a gift in his burgeoning appreciation, for the past shadows and imprints of their history and stories. He became interested in the small details and objects of everyday life revealing something of the Human experience. This awakening of consciously noticing and learning from the rich offerings of everyday life in his own neighbourhood, combined with a spirit of wandering appears to have served him well. In the course of my bimbles along the Devonshire landscape, has been the discovery of so many places that have attached to me some special worth or evocation. One such haven is a place I call, somewhat unimaginatively, <b>Reservoir Hill</b>, because it holds just that, buried beneath its thin skin of grasses and wild flowers. Sunk deep into the soil and bedrock below and closed with steel lids, the reservoir serves as a marvellous platform upon which to survey the landscape. Looking at the map, the hill doesn't appear to have a name that I can find, but it is there as much in my knowledge of the area, as in my mind’s eye. As I write this, I can conjure up the images of the wooded rise and falls of the Crediton Hamlets in the distance. I can recall the criss-cross of ancient hedgerows across the valleys with farmsteads nestling on their slopes. In the far distance, the high undulating moors with a glimpse of their rocky outcrops on the horizon.</p>
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side3} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">View of Exe Estuary</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side4} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Lympstone</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side6} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Late evening light over Exe Estuary</Header>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
                 <p>The nearest identifiable landmark to Reservoir Hill, is the transmission mast, standing atop <b>Waddles Down</b>. If the idea of a transmission mast puts you off, I recommend you go there and stand by the farm gate next to the old oak tree. From there, the mast will be behind you, whilst before you will be an uninterrupted panorama of The Exe Estuary and the open sea of Lyme Bay beyond. It has few rivals in the viewing department, but for me, Reservoir Hill offers a sense of intimacy. It is where I recall the sight of birds of prey, one fine hot summer's afternoon, soaring effortlessly high and low above the landscape. They flew adrift and adroit on the thermal ebbs and falls. The manner in which they glided meant that they were able to observe more carefully and discern things of interest that might so easily be missed in a more hurried fashion. Bimbling has some element of this, as I discovered some years ago. I was cycling through the East Devon village of Lympstone. By good fortune, I came across a poem in a porch window along Sowden Lane. If people consider placing a choice poem on display from their house or garden, they could do no better than 'Days', that short exquisite contemplative poem by Philip Larkin (3). Opening with the question about the meaning of days, it alludes to the broader question on the nature of our very existence. It struck a chord with me, at the time and still does, about the measure, value and importance of each day. In our short “summer of a dormouse" existence, the choices we make about how best to use each day is a valuable lesson. It doesn’t have to be complicated either. As I cycled the rest of the way to Exmouth, I reflected on the poem and the choices I had made in how I might spend this day. Cycling to see my Parents seemed to have been the product of two good intuitive decisions that gave some shape and value to the day. The choice of cycling derived part of its enjoyment from the slow pace this heavy-duty Pashley Roadster bike will only permit. It is made for cruising, not for speed. It is in effect, a bimblers bike. On a hill, I can get off and push the bike without having to offer any justification. Only a masochist or a sadist would disapprove, whereas, in my experience, most people express some solidarity. On a couple of occasions, kindly motorists have actually stopped to ask if I needed a lift, proving there are good Samaritans out there. On the flat, or downhill position, its high seat and handlebar position, provides a fine cockpit view across the countryside. The springy seat allows the temporary assurance of some comfort on long journeys for older bones and muscles. Most of all, my beloved bike has a distinctive old worldly character, that makes it as much a companion as a workhorse on country jaunts or commuting to work. I write this partly as a debt of gratitude to a dear colleague and friend, Peter Freestone. It was his sage advice that led to me purchasing this bike and at an opportune time, when I was coming up to semi-retirement. It has been entirely complimentary. The slow leisurely pace I adopt on the bike has enabled me to cycle far and wide, on any number of pleasant day trips. At times, I slow the pace down further, or dismount and walk. This slowing down, consciously seeks to allowed the fullest appreciation of the landscape in all its moods. On those occasions, when home-coming has been rewarded with the spectacle of sunsets over the Haldon Hills, I have often wished for the clock to stop.</p>
                 <Image src={img2} fluid rounded />
                 <Segment vertical>
@@ -70,6 +114,7 @@ class ChapterOne extends React.Component {
                     <List.Item as="h5">(4) West Country Rivers. The Exe. A River for wildlife. Rod Lawrence (1991)</List.Item>
                     <List.Item as="h5">(5) Waterlog. A Swimmers journey through Britain. Roger Deakin (2000).</List.Item>
                 </List>
+                <br/>
             </div>
         );
     }
