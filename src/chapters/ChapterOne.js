@@ -10,8 +10,7 @@ import img6 from "../media/one/six.JPG";
 import img7 from "../media/one/seven.JPG";
 
 class ChapterOne extends React.Component {
-    render() {
-        
+    render() {        
         return (
             <div className="scrollable justified">
                 <Image src={img1} fluid rounded />

@@ -15,7 +15,7 @@ import img10 from "../media/two/ten.JPG";
 class ChapterTwo extends React.Component {
     render() {
         return (
-            <div class="scrollable justified">
+            <div className="scrollable justified">
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Exe Plain. June 2015.</Header>

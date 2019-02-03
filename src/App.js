@@ -6,28 +6,27 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Cover from "./Cover";
 import ChapterOne from "./chapters/ChapterOne";
 import ChapterTwo from './chapters/ChapterTwo';
-import Header from './Header';
+import Footer from './Footer';
 
 class App extends React.Component {
   render() {
-    $('body').bind('mousewheel', function (e) { // on scroll
+    $('body').bind('mousewheel', function (e) {
       var $div = $('.scrollable');
 
-      // set div scroll top offset to current + extra from this scroll
       $div.scrollTop($div.scrollTop()
-          - e.originalEvent.wheelDelta);
+        - e.originalEvent.wheelDelta);
 
-      return false; // prevent body scrolling
-  });
+      return false;
+    });
 
     return (
       <div>
         <Router>
-          <Container text fluid className="main">            
+          <Container text fluid className="main">
             <Route exact path="/" component={Cover} />
             <Route path="/1" component={ChapterOne} />
             <Route path="/2" component={ChapterTwo} />
-            <Route path="/" component={Header} />
+            <Route path="/" component={Footer} />
           </Container>
         </Router>
       </div >
