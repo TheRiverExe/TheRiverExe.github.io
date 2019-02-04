@@ -12,9 +12,18 @@ import img8 from "../media/two/eight.JPG";
 import img9 from "../media/two/nine.JPG";
 import img10 from "../media/two/ten.JPG";
 
-import side1 from "../media/two/side1.JPG";
-import side2 from "../media/two/side2.JPG";
-import side3 from "../media/two/side3.JPG";
+import side101 from "../media/two/editOne/side101.JPG";
+import side102 from "../media/two/editOne/side102.JPG";
+import side103 from "../media/two/editOne/side103.JPG";
+import side201 from "../media/two/editOne/side201.JPG";
+import side202 from "../media/two/editOne/side202.JPG";
+import side203 from "../media/two/editOne/side203.JPG";
+import side301 from "../media/two/editOne/side301.jpg";
+import side302 from "../media/two/editOne/side302.jpg";
+import side303 from "../media/two/editOne/side303.jpg";
+import side401 from "../media/two/editOne/side401.JPG";
+import side402 from "../media/two/editOne/side402.JPG";
+import side403 from "../media/two/editOne/side403.JPG";
 
 class ChapterTwo extends React.Component {
     render() {
@@ -64,20 +73,19 @@ class ChapterTwo extends React.Component {
                 <p className="quote">“A legend persisted in family circles that the parsonage of Charles was ever afterwards haunted by the repented spirit of the father bewailing his unjust selection”.</p>
                 <p className="quote-credit">The last Victorian. Kenneth Budd (11).</p>
 
+
+                <Image src={side103} fluid rounded />
+
+                <br />
                 <Segment vertical>
                     <Grid divided="vertically">
-                        <Grid.Row columns={3}>
+                        <Grid.Row columns={2}>
                             <Grid.Column>
-                                <Image src={side1} fluid rounded />
-                                <Header as="h4" textAlign="center" color="grey" className="mini-header"></Header>
+                                <Image src={side101} fluid rounded />
                             </Grid.Column>
                             <Grid.Column>
-                                <Image src={side2} fluid rounded />
-                                <Header as="h4" textAlign="center" color="grey" className="mini-header">St John the Baptist</Header>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <Image src={side3} fluid rounded />
-                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Huddley Mill Lane</Header>
+                                <Image src={side102} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">St Petroc’s former Rectory</Header>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
@@ -90,7 +98,43 @@ class ChapterTwo extends React.Component {
                     <Header as="h4" textAlign="center" color="grey">Pannier Market. South Molton. June 2015. </Header>
                 </Segment>
                 <Header as="h1">South Molton.</Header>
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side201} fluid rounded />
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side202} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Churchyard at St Mary Magdalene’s</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side203} fluid rounded />
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
                 <p>South Molton is always a pleasure to wander around. My Father was Head Teacher at the Secondary Modern School in the early 1980's and where my parents and youngest Sister, Lizzie, rented a house nearby. It's not a so much a home-coming as a return to the fleeting memories I have of the fish and chip shop in South Street and a few walks into the town centre from my parents’ house on the edge of the town. Like anyone in their early twenties, I was too caught up in my own life to have much appreciation for the charms of a North Devon town that seemed dull and uninspiring at the time. Whereas now, with a wholly different perspective, I can only regret that I did not see the opportunities available to me at the time to record the earlier character of the town. I have come to some appreciation of this through Lizzie, for retrospectively opening my eyes to the value of the place. Lizzie remembered a time when a bull escaped from one of the cattle compounds behind The Pannier Market and ran amok. She retains a keen childhood memory of the rural nature of the town and the characters she met, both here and later at <b>Crockernwell</b>, some 30 miles away on the eastern fringe of Dartmoor. It was here that she and our Parents lived, whilst our Father secured his last Headship at <b>Cheriton Bishop</b> Primary School. In later life, she worked for South West Water and spent considerable time driving around much of rural Devon to investigate customer’s complaints. In the process, she came across many interesting characters and places that have coalesced with my interest in the photographic work of James Ravilious and an innate general interest in social history. I thank her through these pages for this gift. </p>
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side301} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Lower Budlake, Crockernwell</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side302} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Crockernwell; Olivia and myself 2018</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side303} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Olivia and Kathy, Crockernwell</Header>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
                 <p>So, in this semi-nostalgic frame of mind, I stood by the arching frontage of the Guildhall (1740's) taking in the passing of people scurrying along Broad Street. The town had the appearance of winding up for the day. I tried not to take it too personally. Alas, the marvellous museum tucked away at the entrance to the town hall was closed. However, the <b>Pannier Market</b> was still open, although now half empty with traders beginning to pack up their stalls for the day. This didn't stop me from enjoying the spectacle of the cavernous nature of the hall. In fact, the slow running down of the day's commercial business, lended more attention to the study of the hall itself. The strongest impression was that the hall would have been a major improvement to the commercial life of the town, providing a covered area to cope with the vagaries of the North Devon weather. The continuity of the market harks back to the ancient customs and traditions in the commercial life of the old town. It remains in the centre of the town and in the essentials, largely unchanged. It has retained its character and sense of occasion. To give some emphasis to this, hanging down from the high ceiling were colourful banners displaying the communal life and diversity of the town. On the surrounding walls were regulation signs, but mixed in with this, were murals bearing witness to vibrant history of the town. My interest, however, was drawn to the floor of the hall where the real drama takes place. On busy days, the stalls are tantalizingly bedecked with all manner of goods and is where the eyes of Visitors are turned. Over these stalls the business of the day is conducted. There is a well-established hierarchy of stalls. Regular stall-holders have their established or favoured pitches, whereas, the novice or infrequent trader finds a pitch on the less desirable spots. Each stall has its own character, shaped as much by the personality of the seller, as the wares or produce they have on display. In days gone by, they were brought and displayed in a large assortment of baskets, whereas now they are boxed up and put in vans parked at the rear of the hall. What I most value, is the human element. As a connoisseur of People-Watching, (or someone who is apt to stare, as Kathy more perceptively reminds me) there is nothing to compete with the spectacle of the market. I attempt to overhear, the haggling exchanges between potential customers and the sellers. I observe with some amusement the etiquette of manoeuvring around fellow shoppers or browsers.  There is a palpable sense of noisy, restless energy of being in the company of others. The hall makes for a lively, invigorating and theatrical experience and I hope survives the increasing use of the Internet in our more detached shopping behaviour. The advent of the railway did much to bring about a steep decline in the Woollen and Coaching trade that were a major feature of the town right up until the mid 19c. The population declined and the economy of the town suffered, but the market has survived and from the range of stalls still on show, it appears there is still much life in the old hall yet.</p>
                 <Image src={img7} fluid rounded />
                 <Segment vertical>
@@ -98,6 +142,27 @@ class ChapterTwo extends React.Component {
                 </Segment>
                 <br />
                 <p>Stepping out of the market and crossing The Square, I made my way to Church Street. On the wall above one of the cottages was a figure of a black cat climbing up the wall. I thought this was rather amusing and I am glad I spotted it. I entered the churchyard of <b>St Mary Magdalene</b>. The paths at the front of the church are lower than the raised banks of the churchyard, offering an interesting perspective on the gravestones gathered around its approach. In spring and summer, it must be nice to see the flowers at closer proximity, softening the character of this stony kingdom of memorial. As always, I ponder at the names commemorated on some of the stones. The sense of connection between the living and the dead is much looser today, whereas, in former times, these churchyards were a more regular reminder. The remembrance evoked by each gravestone is measured by the passage of time, the weathering on their inscriptions and the changing nature of the town. I am reminded often reminded of the ethereal vivid quality conveyed in Sir Stanley Spencer's painting, The Resurrection (1924-7). In the front churchyard of Holy Trinity Church, the deceased villagers of Cookham emerge from their graves. It might appear as a modern-day horror film, but this is to misunderstand its meaning. Stanley Spencer had a deep attachment to the Thames -side village of his birth, (“a village in heaven “) and where he lived for much of his life and is buried in the churchyard. The painting reflects his religious convictions and his knowledge of some of the deceased, either through their family names or through his own acquaintanceship. I suspect this is much less common today. There was certainly a contrast with the shadier side at the rear of the church. Here, tombstones are laid flat against the ground, creating a phalanx effect with the names of the devoted and their testimony borne towards the skies. This felt more like the land of stone. There was a mood of other-worldliness, reinforced in my imagination when I realised, I was being closely watched by a black cat peeking from discreet corners of the churchyard. Inside the church, I sat for a short time and took in the view. It is a fine sturdy looking building, both inside and out. How, I should judge its supposed rival church, St Hieritha, in <b>Chittlehampton</b>, I do not know. On my last occasion, visiting St Hieritha, aside from joining the choir in their practice, I hear the story of the two brothers who competed to design and build the most beautiful church. One was responsible for Mary Magdalene in South Molton and the other, St Hieritha at Chittlehampton. Part of the condition was that each would not inspect the other's work and progress until they were complete. When the buildings were complete, both brothers met to consider each-other's work. They agreed that Chittlehampton, "Cathedral of North Devon", St Hieritha was the best. The story has the sad ending with the suicide of the brother who lost.</p>
+
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side401} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Gravestone, Baptist Church, South Molton</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side402} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Churchyard Yew, St Hieritha, Chittlehampton</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side403} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Road sign, Chittlehampton</Header>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
+
                 <p>Leaving the church, I made my way down to Broad Street by way of the small avenue of lime trees and past Mr Brown's Vault 1827. The centre of the town has a distinctive character with two islands and some impressive looking buildings facing the square. Those that have retained their original names and purpose, I particularly, liked; the iron railing Medical Hall and General Post Office. Everywhere, I looked there was bunting displayed along the lime trees and guerrilla knitting festooned over tree trunks to adorn the forthcoming South Molton Carnival. The bust of Hugh Squier set into the Guildhall looks down on approvingly. By now, the day was drawing in and I was keen to look at the outside of the Baptist Church. Years ago, on a bimble around the town, I had turned into New Road and came across the church and stopping, had noticed the memorial set into the side of the building in memory of “Sarah, Wife of James Badcock. Who died of a seizure, June 15th 1853, aged 52 years “. It carried the epitaph, which must still move the hardest of souls: “Farewell my Husband and children, whom I love most dear. It is a sudden change! I had no time to wish you well. Before Christ fold me in his arms “. Whether, these were the words of a grieving family or perhaps the final elegant flurry of Thomas, the engraver, I do not know. It's interesting what sticks in your mind.</p>
                 <Image src={img8} fluid rounded />
                 <Segment vertical>
@@ -143,7 +208,7 @@ class ChapterTwo extends React.Component {
                     <List.Item as="h5">(15) Exmoor Wanderings. Eric R. Delderfield (1956).</List.Item>
                     <List.Item as="h5">(16) Henry Williamson Society website.</List.Item>
                 </List>
-                <br />                
+                <br />
             </div>
         );
     }
