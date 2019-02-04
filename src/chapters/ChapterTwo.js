@@ -143,7 +143,7 @@ class ChapterTwo extends React.Component {
                     <List.Item as="h5">(15) Exmoor Wanderings. Eric R. Delderfield (1956).</List.Item>
                     <List.Item as="h5">(16) Henry Williamson Society website.</List.Item>
                 </List>
-                <br />
+                <br />                
             </div>
         );
     }

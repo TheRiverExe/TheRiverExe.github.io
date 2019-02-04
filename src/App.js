@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Cover from "./Cover";
 import ChapterOne from "./chapters/ChapterOne";
 import ChapterTwo from './chapters/ChapterTwo';
+import ChapterThree from "./chapters/ChapterThree";
 import Footer from './Footer';
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route exact path="/" component={Cover} />
             <Route path="/1" component={ChapterOne} />
             <Route path="/2" component={ChapterTwo} />
+            <Route path="/3" component={ChapterThree} />
             <Route path="/" component={Footer} />
           </Container>
         </Router>
