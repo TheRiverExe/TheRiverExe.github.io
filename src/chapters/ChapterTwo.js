@@ -1,7 +1,7 @@
 import React from 'react';
-import { Divider, Header, Image, List, Segment } from "semantic-ui-react";
+import { Divider, Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
-import img1 from "../media/two/one.JPG";
+import img1 from "../media/two/newOne.JPG";
 import img2 from "../media/two/two.JPG";
 import img3 from "../media/two/three.JPG";
 import img4 from "../media/two/four.jpg";
@@ -11,6 +11,10 @@ import img7 from "../media/two/seven.jpg";
 import img8 from "../media/two/eight.JPG";
 import img9 from "../media/two/nine.JPG";
 import img10 from "../media/two/ten.JPG";
+
+import side1 from "../media/two/side1.JPG";
+import side2 from "../media/two/side2.JPG";
+import side3 from "../media/two/side3.JPG";
 
 class ChapterTwo extends React.Component {
     render() {
@@ -59,6 +63,27 @@ class ChapterTwo extends React.Component {
                 <Header as="h1">Charles.</Header>
                 <p className="quote">“A legend persisted in family circles that the parsonage of Charles was ever afterwards haunted by the repented spirit of the father bewailing his unjust selection”.</p>
                 <p className="quote-credit">The last Victorian. Kenneth Budd (11).</p>
+
+                <Segment vertical>
+                    <Grid divided="vertically">
+                        <Grid.Row columns={3}>
+                            <Grid.Column>
+                                <Image src={side1} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header"></Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side2} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">St John the Baptist</Header>
+                            </Grid.Column>
+                            <Grid.Column>
+                                <Image src={side3} fluid rounded />
+                                <Header as="h4" textAlign="center" color="grey" className="mini-header">Huddley Mill Lane</Header>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
+                <br />
+
                 <p>Alas, even the best lingering moments have their allotted time and stirring myself out of a trance like stupor, I decided it was time to be going homeward. It was also an opportunity to pay my respects to South Molton and on my way there, call into the hamlet of <b>Charles</b>, a place familiar to R.D Blackmore. It is a delightful place to visit, as I discovered, having coaxed my old Citroen up the steep winding Grass Park Lane to verge close to the Parish Church of <b>St John the Baptist</b>. Blackmore stayed with his Uncle, Richard John Blackmore, who was at one time, the incumbent Rector. It was Richard, rather than his older Brother, John, who secured by inheritance, the position, procured originally by his Father, John, some fifty years earlier. At the time of its purchase, there was a sitting incumbent who remained in post until the Brother's Father was too old to fill it. Having taken up the post, Richard played host to his nephew and family over the years that followed. Arriving in the village, I found the place quiet and seemingly deserted. A slight breeze whistled through the churchyard and birdsong reverberated in the warm afternoon sunshine. I could quite see how Blackmore wrote; “as a boy amidst the scenes and silences of a place as remote from the highways of men as any in the whole of England at the time “(11). It was at the Rectory that Blackmore also wrote much of Lorna Doone. I had the good fortune to meet one of the villagers, Ros who lived nearby to the church and offered to show me around and I gladly took her up on this. She directed me to the gravestone of William Buckingham who had been "in the constant employ" of the Reverend J.P Blackmore (the author's Paternal Grandfather) and whom, had met an untimely and instantaneous death following a fall from a horse and cart. He was aged just 34-years at the time of his unfortunate accident in October 1829. His Wife, Susan was subsequently commemorated on the same gravestone. It is perhaps, fitting that the centenary of his birth on the 7th June 1925, saw a commemorative stained-glass window be placed on the east side of the parish church of Charles in his honour. <b>The Reverend Walter William Joyce (1867-1945)</b> was instrumental in raising money for the window. It appears, Joyce shared a similar passion to Blackmore, for the moors, having had his own book, “Echoes of Exmoor “, published in the same year. The Reverend Joyce took on the incumbency in 1916 and served the parish until his death in September 1945. I noticed in the chancel, a memorial to his service to the community. He is certainly remembered in the hamlet as cutting a striking “High Church “figure, wearing a sweeping black coat and clerical hat and zipping about in a powerful open top motorcar. He also wrote a couple of books; Echoes of Exmoor and Moorside tales and talks. It was through his fund-raising efforts that the Blackmore Memorial Window was installed. I was also told that, he was a relative of William Joyce, otherwise known as the infamous Nazi broadcaster, Lord Haw Haw, but I haven't been able to confirm this. At the time of his death, he and his Wife, Mary had lived for 29-years at St. Petroc’s Rectory. It stands a little back from the narrow, high Devon banks of Huddley Mill Lane, that follows the western slope of the hamlet down to Charles Bottom. In appearance, the house looks more like a miniature castle, which seems slightly out of keeping with its original purpose to provide a Rectory. It was built on the site of the former chapel in 1824. A tall gate screened the drive to the house, but I could make out the domed roof that sits on one side of the house, offering quite a feature for one of the living rooms. The author, Blackmore recalled it; „where the lawn is a russet sponge of moss and a stream trickles under the dining room floor “. I continued my way own to Charles Bottom and came across the old granite bridge, close to Hundley Mill, that Blackmore recorded sitting on a large fallen menhir and composing his early works. I sat on the side of the bridge for a time, hoping for some similar inspiration. I could alas, see no menhir and contented myself with the more elemental enjoyment of the sight and sound of the babbling stream, passing quickly underneath on its way down to The River Bray.</p>
                 <Image src={img6} fluid rounded />
                 <Segment vertical>
