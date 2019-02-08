@@ -7,6 +7,7 @@ import Cover from "./Cover";
 import ChapterOne from "./chapters/ChapterOne";
 import ChapterTwo from './chapters/ChapterTwo';
 import ChapterThree from "./chapters/ChapterThree";
+import ChapterFive from "./chapters/ChapterFive";
 import Footer from './Footer';
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Route path="/1" component={ChapterOne} />
             <Route path="/2" component={ChapterTwo} />
             <Route path="/3" component={ChapterThree} />
+            <Route path="/4" component={ChapterFive} />
             <Route path="/" component={Footer} />
           </Container>
         </Router>
