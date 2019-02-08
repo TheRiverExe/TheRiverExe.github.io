@@ -3,6 +3,11 @@ html body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar-track {
+  background: rgb(252, 252, 252)!important;
+  border-radius: 0;
+}
+
 body {
   position:relative;
 }
@@ -42,11 +47,12 @@ h1 {
 
 .scrollable {
   height: 100%;
-  overflow: scroll;
+  padding-right:1vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   min-height:90.5vh;
   max-height:90.5vh;  
 }
-
 .justified {
   text-align:justify;
 }
@@ -55,10 +61,12 @@ h1 {
   padding-top:10px;
 }
 
+/**
 ::-webkit-scrollbar { 
   display: none; 
-}
+}**/
 
+/**
 @media (min-width: 1200px) { 
   .footer:before {
     content:'';
@@ -69,4 +77,4 @@ h1 {
     top:0;
     background:linear-gradient(transparent 86vh, white);
   }
- }
+ } **/
