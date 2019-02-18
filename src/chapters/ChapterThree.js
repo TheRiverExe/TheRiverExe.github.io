@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Grid, Header, Image, List, Segment } from "semantic-ui-react";
+import { Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
 import img1 from "../media/three/img1.jpg";
 import img2 from "../media/three/img2.JPG";
