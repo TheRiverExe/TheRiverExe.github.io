@@ -7,6 +7,7 @@ import Cover from "./Cover";
 import ChapterOne from "./chapters/ChapterOne";
 import ChapterTwo from './chapters/ChapterTwo';
 import ChapterThree from "./chapters/ChapterThree";
+import ChapterFour from "./chapters/ChapterFour";
 import ChapterFive from "./chapters/ChapterFive";
 import ChapterSix from "./chapters/ChapterSix";
 import Footer from './Footer';
@@ -30,8 +31,9 @@ class App extends React.Component {
             <Route path="/1" component={ChapterOne} />
             <Route path="/2" component={ChapterTwo} />
             <Route path="/3" component={ChapterThree} />
-            <Route path="/4" component={ChapterFive} />
-            <Route path="/5" component={ChapterSix} />
+            <Route path="/4" component={ChapterFour} />
+            <Route path="/5" component={ChapterFive} />
+            <Route path="/6" component={ChapterSix} />
             <Route path="/" component={Footer} />
           </Container>
         </Router>
