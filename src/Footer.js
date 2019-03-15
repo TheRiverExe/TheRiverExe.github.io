@@ -14,7 +14,7 @@ class Footer extends React.Component {
                 <Divider />
                 <Button basic color="grey" circular icon="chevron left" as={Link} to={prevPath} disabled={this.props.location.pathname === "/"} />
                 <Button basic color="grey" circular icon="tree" as={Link} to="/" disabled={this.props.location.pathname === "/"} />
-                <Button basic color="grey" circular icon="chevron right" as={Link} to={nextPath} disabled={this.props.location.pathname === "/6"} />
+                <Button basic color="grey" circular icon="chevron right" as={Link} to={nextPath} disabled={this.props.location.pathname === "/7"} />
             </Container>
         );
     }

@@ -10,6 +10,7 @@ import ChapterThree from "./chapters/ChapterThree";
 import ChapterFour from "./chapters/ChapterFour";
 import ChapterFive from "./chapters/ChapterFive";
 import ChapterSix from "./chapters/ChapterSix";
+import ChapterSeven from "./chapters/ChapterSeven";
 import Footer from './Footer';
 
 class App extends React.Component {
@@ -34,6 +35,7 @@ class App extends React.Component {
             <Route path="/4" component={ChapterFour} />
             <Route path="/5" component={ChapterFive} />
             <Route path="/6" component={ChapterSix} />
+            <Route path="/7" component={ChapterSeven} />
             <Route path="/" component={Footer} />
           </Container>
         </Router>
