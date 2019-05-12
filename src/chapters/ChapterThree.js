@@ -2,33 +2,33 @@ import React from 'react';
 import { Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
 import img1 from "../media/three/img1.jpg";
-import img2 from "../media/three/img2.JPG";
-import img3 from "../media/three/img3.JPG";
-import img4 from "../media/three/img4.JPG";
-import img5 from "../media/three/img5.JPG";
-import img6 from "../media/three/img6.JPG";
-import img7 from "../media/three/img7.JPG";
+import img2 from "../media/three/img2.jpg";
+import img3 from "../media/three/img3.jpg";
+import img4 from "../media/three/img4.jpg";
+import img5 from "../media/three/img5.jpg";
+import img6 from "../media/three/img6.jpg";
+import img7 from "../media/three/img7.jpg";
 
-import side11 from "../media/three/side11.JPG";
-import side12 from "../media/three/side12.JPG";
-import side13 from "../media/three/side13.JPG";
-import side24 from "../media/three/side24.JPG";
+import side11 from "../media/three/side11.jpg";
+import side12 from "../media/three/side12.jpg";
+import side13 from "../media/three/side13.jpg";
+import side24 from "../media/three/side24.jpg";
 import side25 from "../media/three/side25.jpg";
 import side31 from "../media/three/side31.jpg";
-import side32 from "../media/three/side32.JPG";
-import side33 from "../media/three/side33.JPG";
-import side41 from "../media/three/side41.JPG";
-import side42 from "../media/three/side42.JPG";
+import side32 from "../media/three/side32.jpg";
+import side33 from "../media/three/side33.jpg";
+import side41 from "../media/three/side41.jpg";
+import side42 from "../media/three/side42.jpg";
 import side51 from "../media/three/side51.jpg";
 import side52 from "../media/three/side52.jpg";
-import side53 from "../media/three/side53.JPG";
-import side61 from "../media/three/side61.JPG";
-import side62 from "../media/three/side62.JPG";
-import side63 from "../media/three/side63.JPG";
+import side53 from "../media/three/side53.jpg";
+import side61 from "../media/three/side61.jpg";
+import side62 from "../media/three/side62.jpg";
+import side63 from "../media/three/side63.jpg";
 import side71 from "../media/three/side71.jpg";
 import side72 from "../media/three/side72.jpg";
-import side81 from "../media/three/side81.JPG";
-import side82 from "../media/three/side82.JPG";
+import side81 from "../media/three/side81.jpg";
+import side82 from "../media/three/side82.jpg";
 
 class ChapterThree extends React.Component {
     render() {

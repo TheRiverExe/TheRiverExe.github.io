@@ -1,7 +1,7 @@
 import React from 'react';
-import { Divider, Grid, Header, Image, List, Segment } from "semantic-ui-react";
+import { Divider, Header, Image, List, Segment } from "semantic-ui-react";
 
-import img1 from "../media/four/img1.JPG";
+import img1 from "../media/four/img1.jpg";
 import img2 from "../media/four/img2.jpg";
 import img3 from "../media/four/img3.jpg";
 import img4 from "../media/four/img4.jpg";
@@ -15,10 +15,10 @@ import img11 from "../media/four/img11.jpg";
 import img12 from "../media/four/img12.jpg";
 import img13 from "../media/four/img13.jpg";
 import img14 from "../media/four/img14.jpg";
-import img15 from "../media/four/img15.JPG";
+import img15 from "../media/four/img15.jpg";
 import img16 from "../media/four/img16.jpg";
-import img17 from "../media/four/img17.JPG";
-import img18 from "../media/four/img18.JPG";
+import img17 from "../media/four/img17.jpg";
+import img18 from "../media/four/img18.jpg";
 
 class ChapterFour extends React.Component {
     render() {

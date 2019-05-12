@@ -1,19 +1,19 @@
 import React from 'react';
 import { Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
-import img1 from "../media/one/one.JPG";
-import img2 from "../media/one/two.JPG";
-import img3 from "../media/one/three.JPG";
-import img4 from "../media/one/four.JPG";
-import img5 from "../media/one/five.JPG";
-import img6 from "../media/one/six.JPG";
-import img7 from "../media/one/seven.JPG";
-import side1 from "../media/one/side1.JPG";
-import side2 from "../media/one/side2.JPG";
-import side3 from "../media/one/side3.JPG";
-import side4 from "../media/one/side4.JPG";
-import side5 from "../media/one/side5.JPG";
-import side6 from "../media/one/side6.JPG";
+import img1 from "../media/one/one.jpg";
+import img2 from "../media/one/two.jpg";
+import img3 from "../media/one/three.jpg";
+import img4 from "../media/one/four.jpg";
+import img5 from "../media/one/five.jpg";
+import img6 from "../media/one/six.jpg";
+import img7 from "../media/one/seven.jpg";
+import side1 from "../media/one/side1.jpg";
+import side2 from "../media/one/side2.jpg";
+import side3 from "../media/one/side3.jpg";
+import side4 from "../media/one/side4.jpg";
+import side5 from "../media/one/side5.jpg";
+import side6 from "../media/one/side6.jpg";
 
 class ChapterOne extends React.Component {
     render() {

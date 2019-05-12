@@ -1,29 +1,29 @@
 import React from 'react';
 import { Divider, Grid, Header, Image, List, Segment } from "semantic-ui-react";
 
-import img1 from "../media/two/newOne.JPG";
-import img2 from "../media/two/two.JPG";
-import img3 from "../media/two/three.JPG";
+import img1 from "../media/two/newOne.jpg";
+import img2 from "../media/two/two.jpg";
+import img3 from "../media/two/three.jpg";
 import img4 from "../media/two/four.jpg";
-import img5 from "../media/two/five.JPG";
+import img5 from "../media/two/five.jpg";
 import img6 from "../media/two/six.jpg";
 import img7 from "../media/two/seven.jpg";
-import img8 from "../media/two/eight.JPG";
-import img9 from "../media/two/nine.JPG";
-import img10 from "../media/two/ten.JPG";
+import img8 from "../media/two/eight.jpg";
+import img9 from "../media/two/nine.jpg";
+import img10 from "../media/two/ten.jpg";
 
-import side101 from "../media/two/editOne/side101.JPG";
-import side102 from "../media/two/editOne/side102.JPG";
-import side103 from "../media/two/editOne/side103.JPG";
-import side201 from "../media/two/editOne/side201.JPG";
-import side202 from "../media/two/editOne/side202.JPG";
-import side203 from "../media/two/editOne/side203.JPG";
+import side101 from "../media/two/editOne/side101.jpg";
+import side102 from "../media/two/editOne/side102.jpg";
+import side103 from "../media/two/editOne/side103.jpg";
+import side201 from "../media/two/editOne/side201.jpg";
+import side202 from "../media/two/editOne/side202.jpg";
+import side203 from "../media/two/editOne/side203.jpg";
 import side301 from "../media/two/editOne/side301.jpg";
 import side302 from "../media/two/editOne/side302.jpg";
 import side303 from "../media/two/editOne/side303.jpg";
-import side401 from "../media/two/editOne/side401.JPG";
-import side402 from "../media/two/editOne/side402.JPG";
-import side403 from "../media/two/editOne/side403.JPG";
+import side401 from "../media/two/editOne/side401.jpg";
+import side402 from "../media/two/editOne/side402.jpg";
+import side403 from "../media/two/editOne/side403.jpg";
 
 class ChapterTwo extends React.Component {
     render() {
