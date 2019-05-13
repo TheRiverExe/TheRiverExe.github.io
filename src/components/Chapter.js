@@ -3,7 +3,7 @@ import React from 'react';
 class Chapter extends React.Component {
     render() {
         return (
-            <div className="scrollable justified">
+            <div className="chapter scrollable justified">
                 {this.props.content}
             </div>
         );

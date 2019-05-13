@@ -50,8 +50,8 @@ class ChapterSix extends React.Component {
     render() {
         return (
             <div className="scrollable justified">
+                <Header as="h1">Chapter Six</Header>
                 <Image src={img1} fluid rounded />
-                <Header as="h1">Chapter Six.</Header>
                 <p className="quote">“The stream invites us to follow; the impulse is so common that it might be set down as an instinct; And certainly, there is no more fascinating pastime than to keep company with a river from its source to the sea".</p>
                 <p className="quote-credit">W.H. Hudson. Afoot in Britain (1909)</p>
                 <Header as="h1">Exford to Winsford</Header>

@@ -7,11 +7,11 @@ class ChapterSeven extends React.Component {
     render() {
         return (
             <Chapter content={<div>
+                <Header as="h1">Chapter Seven</Header>
                 <Image src={Media.img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">River Exe, just past Milton's Bridge.</Header>
-                </Segment>
-                <Header as="h1">Chapter Seven.</Header>
+                </Segment>                
                 <Header className="centered" as="h3">June 2017.</Header>
                 <p className="quote"> "The day is predicted when the last drop of fresh water will have been drained from this planet. The theories upon which so dry a conclusion need not be analysed here. In any case, however acute the general water shortage may become, Devon's supply should be among the last to fail since Dyfnaint, the land of deep, dark valleys, is also the source of many springs".</p>
                 <p className="quote-credit">D. St Leger- Gordon. </p>

@@ -30,7 +30,7 @@ class ChapterFive extends React.Component {
     render() {
         return (
             <div className="scrollable justified">
-                <Header as="h1">Chapter Five.</Header>
+                <Header as="h1">Chapter Five</Header>
                 <p className="quote">"I have a habit that those who know me have often observed and indeed mocked- a habit of plunging off into the dark woods and down steep overgrown tracks".</p>
                 <p className="quote-credit">Margaret Drabble.</p>
                 <Image src={img1} fluid rounded />

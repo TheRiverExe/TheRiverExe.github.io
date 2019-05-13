@@ -24,11 +24,11 @@ class ChapterFour extends React.Component {
     render() {
         return (
             <div className="scrollable justified">
+                <Header as="h1">Chapter Four</Header>
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Prayway Mead.</Header>
                 </Segment>
-                <Header as="h1">Chapter Four.</Header>
                 <p className="quote">"Rivers run through men as surely as they run through the landscape".</p>
                 <p className="quote-credit">Jon Berry.</p>
                 <Image src={img2} fluid rounded />
@@ -79,7 +79,7 @@ class ChapterFour extends React.Component {
                 <Image src={img12} fluid rounded />
                 <Header as="h1">Edgcott.</Header>
                 <Image src={img13} fluid rounded />
-                <br/>
+                <br />
                 <p>Having made the crossing over the Exe, there did not appear to be any footpaths along the side of the river and we were reluctant to make our way up to <b>Muddicombe Cross</b>. This only served to take us some distance from the river before we could return to it via Yealscombe Lane and the next footbridge. Charles proved yet again clear-sighted in the matter. By crossing a nearby field, we were able to walk along the border of a woodland overlooking a stretch of river below, marked on the map as <b>The Tunnel</b>. We came across our next footbridge just below Yealscombe and over this through to the rather lovely little hamlet of <b>Edgcott</b>. Here and there were whitewashed cottages, high hedges and well attended gardens. The quiet ambience put me in mind of the fictional village landscape portrayed in the BBC's production of Miss Marple from one of the Agatha Christie's books. On our way, we walked close to <b>Edgcott House</b>, the former home of <b>Major Moorland John Greig (1864-1915)</b>. His memorial is on the nave wall at the nearby St Mary Magdalene Parish Church of Exford, whereas, his body, like so many servicemen killed in action during The First World War, is buried at Karakoe, Sulva Bay. His Son, Richard who was “lost at sea” in March 1941, would have been just eleven years of age, when his Father took part in his last hunt meeting as Master of The Devon and Somerset Stag Hunt. Immediately after this, he joined his regiment, The Royal North Devon Hussars and was just 50 years of age when he was killed in action during the ill-fated Gallipoli Campaign on October 17th, 1915. Leaving, the road, Charles and I found a footpath through a field taking us back to the river. Crossing a footbridge, close to where Edgcott Water joins the river. From there, we followed the short footpath past small copses and fields until we came to the outskirts of Exford the first substantive conurbation along the stretch of the river we had thus passed. Close by still remains The Kennels for The Devon and Somerset Stag Hunt (established 1875).</p>
                 <Header as="h1">Exford.</Header>
                 <Image src={img14} fluid rounded />
@@ -98,9 +98,9 @@ class ChapterFour extends React.Component {
                 <p>At the heart of the Exford, surrounded by cottages and the village store and illuminated in full morning sunshine glory, was the village green. Nearby, was a café and having had quite a long drive, this is where Kathy and I stopped for refreshment. The menu was presented with the cover of ‘The secret book of the Gnomes’. A nice touch, I thought. Whilst we were waiting for our order, I glanced at a leaflet advertising The Exmoor Dark Skies Festival. This offers a range of night-time activities which have as their theme a celebration of the night skies. They take place all over the Exmoor from a Stellar Pizza Meal and quiz at Simonsbath, to a Night Navigation and Star gazing meeting at Goat Hill, near Pinkery. There was one more place, I hoped to see. <b>St Mary Magdalene Church</b> stands high above the village and was originally dedicated to St Salvyn a Celtic missionary who came over from Wales during the Dark Ages. To the side of the outside east porch wall is the barely decipherable epitaph to Richard Gould, placed in his memory by his Widow who died in 1865 having reached the ripe old age of 106. A helpful information board gave the inscription, which frankly, I couldn't read. “A Husband dear, who in the Lord did trust. Beneath this stone lies silent in the dust. Till the last Trump shall sound and bid him rise. To meet his blessed Saviour in the skies”. The board also directed us to the gravestone of Amos Cann, buried near the churchyard gate. It informed us, that during the harsh winter of 1891, Mr Cann was caught out in the open, when walking back to the village from Porlock. It was three weeks before his frozen body was found. The churchyard cross standing in the churchyard was broken in half possibly by the Parliamentarians and even then, dated back many centuries to before the time of the Norman Conquest. Perhaps, because the cross had been broken, it acquired the local name as the Crying Stone. It was for many centuries, a place where notices of local gatherings would be announced.</p>
                 <p>Nearby, I noticed a wooden bench dedicated to the memory of <b>Major Wendy Haswell Wilson Swales (1933-1997)</b> with the simple epitaph “Died near here. Prayed for here. Donated by comrades and friends”. He lived a full and interesting life taking part in an alphabetical roll call of sports, ranging from Boxing to Yachting. He served in The Royal Marines and later, with the Parachute Regiment. This led onto him taking part in a number of outward-bound expeditions, supporting young people in trekking around far flung places. Eventually, it led to him setting up his own expedition company. It was whilst walking on Exmoor with friends and his memorial seat is a good place to sit and admire the view. You can look across the Exe Valley and the crest along which the prehistoric ridgeway travelled and now forms Room Hill Road. The interior of the church was colourfully adorned with kneelers and cushions, displaying the life and traditions of the village. My eye was drawn to the elegant paintings on the wooden panelling on the church organ (1924) but if I have any memory of the day it was the chance meeting with <b>Mary Bawden</b> and her friend, Jackie Boyes. Mary had arranged flowers to decorate the church and we fell into a brief conversation. Mary has attended the church for most of her life and taken an active part in the choir. Now, in poorer health, she attends with Jackie to do the flower displays. I had hoped to meet her again to find out more of her story, but her health made this undertaking too difficult to arrange, so I simply record the pleasure of meeting Mary and admiring her connection to the life of the church. </p>
                 <Image src={img18} fluid rounded />
-                <br/>
+                <br />
                 <Divider />
-                <br/>
+                <br />
                 <List>
                     <List.Item as="h5">(1) Rambles in Somerset. G.W.Wade&mp;J.H.Wade (1912)</List.Item>
                     <List.Item as="h5">(15) Exmoor Wanderings. Eric R. Delderfield (1956).</List.Item>
@@ -112,7 +112,7 @@ class ChapterFour extends React.Component {
                     <List.Item as="h5">(23) An English Eye. The Photographs of James Ravilious. Peter Hamilton. (1998)</List.Item>
                     <List.Item as="h5">(24) James Ravilious. A Life. Robin Ravilious (2017)</List.Item>
                 </List>
-                <br/>
+                <br />
             </div>
         );
     }

@@ -34,16 +34,16 @@ class ChapterThree extends React.Component {
     render() {
         return (
             <div className="scrollable justified">
+                <Header as="h1">Chapter Three</Header>
                 <Image src={img1} fluid rounded />
                 <Segment vertical>
                     <Header as="h4" textAlign="center" color="grey">Exe Head Bridge.</Header>
                 </Segment>
-                <Header as="h1">Chapter Three.</Header>
                 <p className="quote">"Besides about forty maps (sic) I carried a camera, field glasses, medicament, notebooks, and some works to identify plants and minerals. Among books, one an old favourite of mine on how to live the contemplative life in the desert, written by some Father of the Church in the fourteenth century, rather let me down in wet weather. At nightfall, alone and miles from anywhere recognizable, I found more comfort in a little Scotch and stories about wicked Roman women"</p>
                 <p className="quote-credit">John Hillaby. Journey through Britain. (1970).</p>
-                <br/>
+                <br />
                 <Image src={img7} fluid rounded />
-                <Segment vertical>                    
+                <Segment vertical>
                 </Segment>
                 <br />
                 <p>It was over a pint or two, and one evening at The Royal Oak, St Thomas, that the idea of sharing the journey downwards from Exe Head to Exmouth crystallized into a plan of action. Perhaps, it was the spirit of the Exe, flowing beside the pub, that cast its spell on the occasion. It may also have been the spirit of Roger Deakin, author of “Waterlog “that played a part. My would-be companion was <b>Charles Dixon</b>. I don't recall how or when we came to discover our shared enjoyment of wild swimming, but I have much reason to be grateful to Charles. I was due to go on holiday to Harlyn Bay, on the north Cornwall coast and Charles recalled that one of the places, Roger Deakin mentioned in the book was <b>Treyarnon Bay</b>. It has a tidal rock pool par excellence and fortuitously was just a short distance from where we staying. Charles kindly loaned me his copy of the book and it proved to be something of an epiphany. Quite simply, I found the account of his various swimming adventures widening the narrow lens through which I seen wild swimming and opening up new vistas of swimming locations with inspirational evocations. As soon as I got home, I made my way to my nearest bookshop and purchased my very own copy. In the years, that have followed, the book has attained the status of a much-loved read. The covers are battered and frayed and inside, the pages have comments and notes scribbled. Pages are folded and their corners turned for ease of reference and photos and additional sheets of information stored. A plastic band holds the whole crumpled marvelousness together. The book has become something of a talisman to a small group of us, who share a love of the outdoor swimming. Serendipitously, at the time of meeting in the pub, Charles, had decided to drop a day per week in his work schedule and the idea of joining me in a walk along the Exe, with a series of swims, seemed a welcome opportunity. It has proved to be a good and valued partnership and one that has (at time of writing) led us to walk not only the Exe, but The Rivers' Teign, Lemon, Sid and Dawlish Waters. Into our walks, has come along one of my oldest and dearest friends, Mark Burnard. More walks are planned.</p>

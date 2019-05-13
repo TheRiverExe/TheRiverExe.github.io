@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Cover from "./Cover";
 import Chapters from "./chapters/Chapters";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -24,6 +25,7 @@ class App extends React.Component {
           <Container text fluid className="main">
             <Route exact path="/" component={Cover} />
             {chapters}
+            <Route path="/" component={Footer} chaptersCount={chapters.length} />
           </Container>
         </Router>
       </div >

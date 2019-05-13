@@ -1,11 +1,17 @@
+import BigImage from "./BigImage";
 import Chapter from "./Chapter";
 import ChapterHeader from "./ChapterHeader";
-import Image from "./BigImage";
+import ImageGrid from "./ImageGrid";
 import Quote from "./Quote";
+import References from "./References";
+import SubHeader from "./SubHeader";
 
 export {
     Chapter,
     ChapterHeader,
-    Image,
-    Quote
+    BigImage,
+    ImageGrid,
+    Quote,
+    References,
+    SubHeader
 };
